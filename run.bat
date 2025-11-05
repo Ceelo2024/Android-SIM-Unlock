@@ -4,9 +4,9 @@ rem job name
 set jobName=run
 
 rem path
-set directoryPath=C:\Users\%username%\platform-tools
+set directoryPath=C:\Users\ACARP\platform-tools
 
-cd %directoryPath%
+cd C:\Users\ACARP\platform-tools
 adb shell cmd appops set com.google.android.apps.work.oobconfig WAKE_LOCK deny
 adb shell cmd appops set com.google.android.apps.work.oobconfig RUN_IN_BACKGROUND deny
 adb shell cmd appops set com.google.android.apps.work.oobconfig RUN_ANY_IN_BACKGROUND deny
